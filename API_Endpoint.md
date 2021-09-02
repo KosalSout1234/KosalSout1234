@@ -1,5 +1,5 @@
 ```
-POST   (v1/usage_status)
+POST   (/v1/usage_status)
 ```
 - This endpoint inserts the last usage time of user for both spiral place web version and application.
 A purpose is to track an availability of each user.
@@ -29,7 +29,7 @@ A purpose is to track an availability of each user.
 
 
 ```
-GET   (v1/usage_status/{user_id})
+GET   (/v1/usage_status/{user_id})
 ```
 - This endpoint returns user usage status
 
@@ -50,7 +50,7 @@ GET   (v1/usage_status/{user_id})
 |401  |  Unauthorized |{<br/>&nbsp;&nbsp;&nbsp;&nbsp; "code"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 401,<br/>&nbsp;&nbsp;&nbsp;&nbsp; "message": "401 Unauthorized"<br/>}  | 
 
 ```
-PATCH   (v1/usage_status/{user_id})
+PATCH   (/v1/usage_status/{user_id})
 ```
 - This endpoint returns user usage status
 
