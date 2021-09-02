@@ -5,7 +5,7 @@ POST   (/v1/usage_status)
 A purpose is to track an availability of each user.
 
 `
-1/ Header: Authorization (AWS access token)
+1/ HEADER: Authorization (AWS access token)
 `
 
 `
@@ -34,7 +34,7 @@ GET   (/v1/usage_status/{user_id})
 - This endpoint returns user usage status
 
 `
-1/ Header: Authorization (AWS access token)
+1/ HEADER: Authorization (AWS access token)
 `
 `
 2/ PATH PARAMATERS: user_id
@@ -55,7 +55,7 @@ PATCH   (/v1/usage_status/{user_id})
 - This endpoint returns user usage status
 
 `
-1/ Header: Authorization (AWS access token)
+1/ HEADER: Authorization (AWS access token)
 `
 `
 2/ REQUEST BODY SCHEMA: application/json
