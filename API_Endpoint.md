@@ -52,11 +52,13 @@ GET   (/v1/usage_status/{user_id})
 ```
 PATCH   (/v1/usage_status/{user_id})
 ```
-- This endpoint returns user usage status
+- This endpoint updates user usage datetime
 
 `
 1/ HEADER: Authorization (AWS access token)
 `
+
+
 `
 2/ REQUEST BODY SCHEMA: application/json
 `
