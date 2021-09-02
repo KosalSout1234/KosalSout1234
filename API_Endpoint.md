@@ -36,13 +36,9 @@ GET   (v1/usage_status/{user_id})
 `
 1/ Header: Authorization (AWS access token)
 `
-
 `
-2/ REQUEST BODY SCHEMA: application/json
+2/ PATH PARAMATERS: user_id
 `
-| Field  | Type  | 
-|---|---|
-|usage_datetime   |  string |  
 
 `
 3/ RESPONSE
@@ -61,10 +57,12 @@ PATCH   (v1/usage_status/{user_id})
 `
 1/ Header: Authorization (AWS access token)
 `
-
 `
-2/ QUERY PARAMATERS: user_id
+2/ REQUEST BODY SCHEMA: application/json
 `
+| Field  | Type  | 
+|---|---|
+|usage_datetime   |  string |  
 
 
 `
