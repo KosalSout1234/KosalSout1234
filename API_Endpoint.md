@@ -69,6 +69,7 @@ PATCH   (/v1/usage_status/{user_id})
 `
 | Field  | Type  | 
 |---|---|
+|is_phone   |  int |
 |usage_datetime   |  string |  
 
 
@@ -78,5 +79,5 @@ PATCH   (/v1/usage_status/{user_id})
 | Status  | Meaning  | Schema |
 |---|---|---|
 |200   |  OK |  {<br/>&nbsp;&nbsp;&nbsp;&nbsp; "user_id"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 214,<br/>&nbsp;&nbsp;&nbsp;&nbsp; "account_id": 2 <br/>&nbsp;&nbsp;&nbsp;&nbsp; "is_phone"&nbsp;&nbsp;&nbsp;&nbsp;: 1 <br/>&nbsp;&nbsp;&nbsp;&nbsp; "usage_datetime": "2021-09-02T20:14:16+09:00"<br/>}  | 
-|400  |  Bad request |{<br/>&nbsp;&nbsp;&nbsp;&nbsp; "code"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 400,<br/>&nbsp;&nbsp;&nbsp;&nbsp; "message": "400 bad request",<br/>&nbsp;&nbsp;&nbsp;&nbsp; "fields"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{ <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;user_id   :[required]<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} <br/>}  |  
+|400  |  Bad request |{<br/>&nbsp;&nbsp;&nbsp;&nbsp; "code"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 400,<br/>&nbsp;&nbsp;&nbsp;&nbsp; "message": "400 bad request",<br/>&nbsp;&nbsp;&nbsp;&nbsp; "fields"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{ <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;is_phone   :[required]<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;usage_datetime   :[required]<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} <br/>}  |  
 |401  |  Unauthorized |{<br/>&nbsp;&nbsp;&nbsp;&nbsp; "code"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 401,<br/>&nbsp;&nbsp;&nbsp;&nbsp; "message": "401 Unauthorized"<br/>}  | 
