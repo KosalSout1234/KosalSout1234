@@ -42,7 +42,7 @@ GET   (/v1/usage_status/{user_id})
 `
 
 `
-2/ QUERY PARAMATERS: is_phone
+3/ QUERY PARAMATERS: is_phone
 `
 
 `
