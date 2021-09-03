@@ -67,10 +67,10 @@ PATCH   (/v1/usage_status/{user_id})
 `
 2/ REQUEST BODY SCHEMA: application/json
 `
-| Field  | Type  | 
-|---|---|
-|is_phone   |  int |
-|usage_datetime   |  string |  
+| Field  | Type  | Additional|
+|---|---|---|
+|is_phone   |  int |required|
+|usage_datetime   |  string |  required|
 
 
 `
