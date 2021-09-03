@@ -42,7 +42,11 @@ GET   (/v1/usage_status/{user_id})
 `
 
 `
-3/ RESPONSE
+2/ QUERY PARAMATERS: is_phone
+`
+
+`
+4/ RESPONSE
 `
 | Status  | Meaning  | Schema |
 |---|---|---|
