@@ -36,6 +36,7 @@ GET   (/v1/usage_status/{user_id})
 `
 1/ HEADER: Authorization (AWS access token)
 `
+
 `
 2/ PATH PARAMATERS: user_id
 `
